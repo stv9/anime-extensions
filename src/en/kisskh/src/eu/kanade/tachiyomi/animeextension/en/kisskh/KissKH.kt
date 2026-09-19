@@ -268,11 +268,8 @@ class KissKH :
     companion object {
         private const val PREF_DOMAIN_KEY = "preferred_domain"
         private val DOMAIN_ENTRIES = listOf(
-            "kisskh.ovh",
-            "kisskh.do",
-            "kisskh.co",
-            "kisskh.id",
-            "kisskh.la",
+			"kisskh.is",
+			"kisskh.xyz",
         )
         private val DOMAIN_VALUES = DOMAIN_ENTRIES.map { "https://$it" }
         private val PREF_DOMAIN_DEFAULT = DOMAIN_VALUES[0]
